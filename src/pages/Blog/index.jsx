@@ -10,10 +10,10 @@ const Blog = () => {
       <Navbar />
       {/* Banner */}
       <Banner />
-      {/* footer */}
-      <Footer />
       {/* Blogs */}
       <Blogs />
+      {/* footer */}
+      <Footer />
     </div>
   );
 };

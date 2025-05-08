@@ -1,7 +1,7 @@
 import Footer from "../../components/CommonComponent/Footer";
 import Header from "../../components/CommonComponent/Header";
 import Navbar from "../../components/CommonComponent/Navbar";
-import Product from "../../components/Products/Product";
+import ProductList from "../../components/CommonComponent/ProductList";
 
 const Products = () => {
   return (
@@ -10,11 +10,10 @@ const Products = () => {
       <Navbar />
       {/* Header */}
       <Header />
+      {/* Products */}
+      <ProductList />
       {/* footer */}
       <Footer />
-
-      {/* Products */}
-      <Product />
     </div>
   );
 };
